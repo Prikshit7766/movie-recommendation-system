@@ -11,7 +11,7 @@ sklearn
 scipy>=0.15.1
 nltk==3.5
 jsonschema==3.2.0
-tmdbv3api==1.6.1
+tmdbv3api
 lxml==4.6.3
 urllib3==1.26.5
 pickleshare==0.7.5
