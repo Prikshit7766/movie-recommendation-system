@@ -15,3 +15,4 @@ tmdbv3api
 lxml==4.6.3
 urllib3==1.26.5
 pickleshare==0.7.5
+tmdbv3api
