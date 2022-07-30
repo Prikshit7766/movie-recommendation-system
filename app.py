@@ -119,7 +119,7 @@ with header:
 font-size:50px; text-align:center; border:1px solid #ccc; border-radius:12px;} s
 </style> """, unsafe_allow_html=True)
     st.markdown('<p class="title">Movie Recommendation System</p>',unsafe_allow_html=True)
-    selected_movie_name = st.selectbox('How would you like to be contacted?',movie["movie_title"].values)
+    selected_movie_name = st.selectbox('select a movie?',movie["movie_title"].values)
 
 if st.button('Recommend'):
 
