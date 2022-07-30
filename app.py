@@ -11,7 +11,7 @@ tmdb = TMDb()
 tmdb.api_key = '552927457b085828308d3b468f6bea5f'
 from tmdbv3api import Movie
 tmdb_movie = Movie()
-movies_dict = pickle.load(open(r'C:\Users\HP\OneDrive\Desktop\mini-project\modular\recommendation_system\movie_dict.pkl','rb'))
+movies_dict = pickle.load(open(r'movie_dict.pkl','rb'))
 
 movie = pd.DataFrame(movies_dict)
 
