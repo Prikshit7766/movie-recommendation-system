@@ -1,4 +1,4 @@
-!pip install IMDbPY
+!pip install tmdbv3api
 import streamlit as st
 import pickle
 import pandas as pd
