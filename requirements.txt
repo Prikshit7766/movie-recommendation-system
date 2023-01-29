@@ -7,7 +7,7 @@ seaborn
 joblib
 notebook
 seaborn
-sklearn
+scikit-learn==1.2.1
 scipy>=0.15.1
 nltk==3.5
 jsonschema==3.2.0
